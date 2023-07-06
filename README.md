@@ -15,7 +15,7 @@ Quick how-to about Termux package management is available at [Package Management
 
 ***
 
-**NOTICE: Termux is broken on Android 12.** Android OS will kill any (phantom) processes greater than 32 (limit is for all apps combined) and also kill any processes using excessive CPU. You may get `[Process completed (signal 9) - press Enter]` message in the terminal without actually exiting the shell process yourself. Check the related issue [#2366](https://github.com/termux/termux-app/issues/2366), [issue tracker](https://issuetracker.google.com/u/1/issues/205156966), [phantom cached and empty processes docs](https://github.com/agnostic-apollo/Android-Docs/blob/master/en/docs/apps/processes/phantom-cached-and-empty-processes.md) and [this TLDR comment](https://github.com/termux/termux-app/issues/2366#issuecomment-1237468220) on how to disable trimming of phantom and excessive cpu usage processes. A proper docs page will be added later. An option to disable the killing should be available in Android 12L or 13, so upgrade at your own risk if you are on Android 11, specially if you are not rooted.
+**NOTICE: Termux may be unstable on Android 12+.** Android OS will kill any (phantom) processes greater than 32 (limit is for all apps combined) and also kill any processes using excessive CPU. You may get `[Process completed (signal 9) - press Enter]` message in the terminal without actually exiting the shell process yourself. Check the related issue [#2366](https://github.com/termux/termux-app/issues/2366), [issue tracker](https://issuetracker.google.com/u/1/issues/205156966), [phantom cached and empty processes docs](https://github.com/agnostic-apollo/Android-Docs/blob/master/en/docs/apps/processes/phantom-cached-and-empty-processes.md) and [this TLDR comment](https://github.com/termux/termux-app/issues/2366#issuecomment-1237468220) on how to disable trimming of phantom and excessive cpu usage processes. A proper docs page will be added later. An option to disable the killing should be available in Android 12L or 13, so upgrade at your own risk if you are on Android 11, specially if you are not rooted.
 
 ***
 
@@ -116,7 +116,7 @@ Version: 3
 
 **Termux and its plugins are no longer updated on [Google Play Store](https://play.google.com/store/apps/details?id=com.termux) due to [android 10 issues](https://github.com/termux/termux-packages/wiki/Termux-and-Android-10) and have been deprecated.** The last version released for Android `>= 7` was `v0.101`. **It is highly recommended to not install Termux apps from Play Store any more.**
 
-There are plans for **unpublishing** the Termux app and all its plugins on Play Store soon so that new users cannot install it and for **disabling** the Termux apps with updates so that existing users **cannot continue using outdated versions**. You are encouraged to move to `F-Droid` or `GitHub` builds as soon as possible.
+**Termux developers do not have access to Play Store Console account where Termux is published and therefore can't remove the app.** You are encouraged to move to `F-Droid` or `GitHub` builds as soon as possible and suggest doing so for other users via social media.
 
 You **will not need to buy plugins again** if you bought them on Play Store. All plugins are free on `F-Droid` and  `GitHub`.
 
